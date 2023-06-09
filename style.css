@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, sans-serif;
+}
+
+.container {
+  max-width: 50rem;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  border: 1px solid;
+  text-align: center;
+}
+
+.main-heading {
+  font-size: 2rem;
+  margin: 2rem 0 1rem;
+  text-align: center;
+  color: white;
+}
+
+.small-head {
+  margin: 2rem 0;
+}
+
+.small-heading {
+  font-size: 2rem;
+}
+.main-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-input-control {
+  margin: 1rem;
+}
+
+.name {
+  margin-bottom: 1rem auto;
+  margin-top: 5px auto;
+  display: flex;
+  flex-direction: wrap;
+}
